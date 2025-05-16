@@ -22,3 +22,12 @@ Ketika subscriber dan publisher mempunyai connection url yang sama berati progra
 Pada subscriber, fakta adanya 5 Message received pada terminal menandakan publisher sukses mengirimkan 5 pesan ke RabbitMQ broker. Subscriber sukses terhubung dengan broker yang sama dan menerima tiap message yang dikirimkan oleh publisher.
 
 Pada publisher, kita tidak melihat banyak karena ketika kita menjalankan cargo run, kita mengirimkan 5 pesan ke RabbitMQ dan fakta consumer/subscriber mendapati 5 pesan itu sudah cukup untuk membuktikan pesan sukses di kirimkan dan di deserialized oleh subscriber.
+
+## Monitoring chart based on publisher.
+![alt text](<[IMG] Spikes.png>)
+
+Spike tersebut menandakan aktivitas yang terjadi di publisher dan juga subscriber. 
+
+Saya sengaja memberikan delay pada waktu menjalankan kedua repo. Dan seperti yang bisa kita lihat bahwa activity berwarna kuning muncul yang menandakan publish sedang mengirimkan pesan ke queue dan nantinya diterima oleh subscriber seperti yang bisa dilihat pada spike ungu dan abu-abu (read).
+
+Fakta pendukung ada di chart atas dimana spike terjadi di waktu yang mirip dengan publisher.
