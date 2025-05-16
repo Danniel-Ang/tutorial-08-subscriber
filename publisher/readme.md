@@ -13,3 +13,5 @@ guest:guest@localhost:5672 adalah alamat koneksi (connection string) untuk menga
 
 Ketika subscriber dan publisher mempunyai connection url yang sama berati program tersebut terhubung dengan instance RabbitMQ yang sama. Memungkinkan publisher mengirimkan pesan yang nantinya dapat diterima oleh subscriber.
 
+## Running RabbitMQ as message broker
+![alt text](<[IMG] RabbitMQ.png>)
