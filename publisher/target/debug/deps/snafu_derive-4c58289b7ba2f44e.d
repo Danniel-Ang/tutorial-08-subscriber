@@ -1,9 +1,0 @@
-/Users/dannielang/Documents/Semester 4/Adpro/tutorial-08-subscriber/publisher/target/debug/deps/libsnafu_derive-4c58289b7ba2f44e.dylib: /Users/dannielang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-derive-0.7.5/src/lib.rs /Users/dannielang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-derive-0.7.5/src/parse.rs /Users/dannielang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-derive-0.7.5/src/shared.rs /Users/dannielang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-derive-0.7.5/src/report.rs /Users/dannielang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-derive-0.7.5/src/report/no_async.rs
-
-/Users/dannielang/Documents/Semester 4/Adpro/tutorial-08-subscriber/publisher/target/debug/deps/snafu_derive-4c58289b7ba2f44e.d: /Users/dannielang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-derive-0.7.5/src/lib.rs /Users/dannielang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-derive-0.7.5/src/parse.rs /Users/dannielang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-derive-0.7.5/src/shared.rs /Users/dannielang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-derive-0.7.5/src/report.rs /Users/dannielang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-derive-0.7.5/src/report/no_async.rs
-
-/Users/dannielang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-derive-0.7.5/src/lib.rs:
-/Users/dannielang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-derive-0.7.5/src/parse.rs:
-/Users/dannielang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-derive-0.7.5/src/shared.rs:
-/Users/dannielang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-derive-0.7.5/src/report.rs:
-/Users/dannielang/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/snafu-derive-0.7.5/src/report/no_async.rs:
