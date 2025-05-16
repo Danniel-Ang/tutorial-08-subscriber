@@ -15,3 +15,10 @@ Ketika subscriber dan publisher mempunyai connection url yang sama berati progra
 
 ## Running RabbitMQ as message broker
 ![alt text](<[IMG] RabbitMQ.png>)
+
+## Sending and processing event
+![alt text](<[IMG] Publisher&Consumer.png>)
+
+Pada subscriber, fakta adanya 5 Message received pada terminal menandakan publisher sukses mengirimkan 5 pesan ke RabbitMQ broker. Subscriber sukses terhubung dengan broker yang sama dan menerima tiap message yang dikirimkan oleh publisher.
+
+Pada publisher, kita tidak melihat banyak karena ketika kita menjalankan cargo run, kita mengirimkan 5 pesan ke RabbitMQ dan fakta consumer/subscriber mendapati 5 pesan itu sudah cukup untuk membuktikan pesan sukses di kirimkan dan di deserialized oleh subscriber.
