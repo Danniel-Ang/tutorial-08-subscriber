@@ -15,8 +15,10 @@ guest:guest@localhost:5672 adalah alamat koneksi (connection string) untuk menga
 
 
 ## Simulation slow subscriber
-subscriber/[IMG] Slow Subs.png
+![subscriber/\[IMG\] Slow Subs.png](<[IMG] Slow Subs.png>)
 
 Total (Highest): 21
 Because i run it like five times, i guess what happen is the first four messages doesnt get into queue but direct to subscriber. But the rest is going to the queue because it is delayed for 1s each message. 
 
+## Reflection and Running at least three subscribers
+![alt text](<[IMG] Multiple Subs.png>)
