@@ -13,3 +13,10 @@ guest:guest@localhost:5672 adalah alamat koneksi (connection string) untuk menga
 - guest kedua adalah password-nya. 
 - localhost:5672 menunjukkan bahwa RabbitMQ berjalan di komputer lokal (localhost) pada port 5672, yang merupakan port default untuk protokol AMQP.
 
+
+## Simulation slow subscriber
+subscriber/[IMG] Slow Subs.png
+
+Total (Highest): 21
+Because i run it like five times, i guess what happen is the first four messages doesnt get into queue but direct to subscriber. But the rest is going to the queue because it is delayed for 1s each message. 
+
